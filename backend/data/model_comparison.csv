@@ -1,0 +1,9 @@
+model,category,validation_roc_auc,validation_ap,silhouette,deployment_role
+Isolation Forest A,Anomaly Detection,0.1476,0.0637,,Benchmark
+Isolation Forest B,Anomaly Detection,0.1565,0.0644,,Benchmark
+Original LOF,Anomaly Detection,0.413893,0.088778,,Experimental anomaly scoring
+Reduced LOF,Anomaly Detection,0.3981,0.0864,,Benchmark
+PCA LOF,Anomaly Detection,0.4121,0.0881,,Compact alternative
+K-Means (K=2),Clustering,,,0.4697,Primary transaction segmentation
+DBSCAN (eps=9.028),Clustering,,,0.4064,Exploratory comparison
+DBSCAN (eps=11.735),Clustering,,,0.4955,Exploratory comparison

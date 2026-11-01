@@ -1,0 +1,30 @@
+Metric,Value
+Sample Size,10000
+Training Time Steps,1–30
+PCA Components,59
+Selected K,2
+Small Cluster Size,592
+Large Cluster Size,9408
+K2 Silhouette Score,0.4697
+K2 Davies-Bouldin Index,1.9251
+PC1 Centroid Separation Contribution (%),98.0537
+Reduced Feature Cluster ARI,0.8836
+Without PC1 Silhouette,0.064
+Time-Cluster Chi-Square P-value,1.3718621e-65
+Small Cluster Known Label Rate (%),82.6
+Large Cluster Known Label Rate (%),17.72
+Label Availability Unadjusted OR,22.0462
+Label Availability CMH Adjusted OR,20.5207
+CMH 95% CI Lower,16.2477
+CMH 95% CI Upper,25.9174
+Time Steps With Higher Small-Cluster Known Rate,29
+Time Steps With Zero Contingency Cells,18
+Time Steps With Small Cluster N Below 20,20
+Homogeneity Test Statistic,282.566
+Small Cluster Minimum Illicit Rate (%),0.0
+Small Cluster Maximum Illicit Rate (%),17.3986
+Large Cluster Minimum Illicit Rate (%),2.6786
+Large Cluster Maximum Illicit Rate (%),84.9596
+Analysis Type,Exploratory unsupervised clustering
+Primary Limitation,"Unknown labels, sparse time-step strata, temporal heterogeneity, and PC1-dominated separation"
+Illicit Detection Validated,False
