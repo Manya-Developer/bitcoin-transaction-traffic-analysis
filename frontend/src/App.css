@@ -413,3 +413,53 @@ body {
   text-align: left;
   cursor: pointer;
 }
+
+
+/* ==========================================
+   TRANSACTION FILTERS
+   ========================================== */
+
+.transaction-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.transaction-filters select,
+.transaction-filters input {
+  padding: 11px 14px;
+  border: 1px solid #dbe3ed;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #334155;
+  font-size: 14px;
+  outline: none;
+  min-height: 42px;
+}
+
+.transaction-filters select:focus,
+.transaction-filters input:focus {
+  border-color: #2563eb;
+}
+
+.transaction-filters input {
+  width: 190px;
+}
+
+.transaction-filters button {
+  padding: 11px 16px;
+  min-height: 42px;
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.transaction-filters button:hover {
+  background: #1d4ed8;
+}
